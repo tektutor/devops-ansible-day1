@@ -1,0 +1,26 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.tektutor</groupId>
+	<artifactId>plugin-test</artifactId>
+	<version>1.0.0</version>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.tektutor</groupId>
+				<artifactId>tektutor-helloworld-plugin</artifactId>
+				<version>3.5.0</version>
+				<executions>
+					<execution>
+						<id>default-hello</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>sayHello</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
